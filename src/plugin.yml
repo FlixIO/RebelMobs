@@ -1,0 +1,10 @@
+name: RebelMobs
+version: 1.0
+author: Flix Kei
+main: io.flixion.rebelmobs.RebelMobsPlugin
+description: For spigot 1.12.2
+
+commands:
+  mobregion:
+    usage: /<command> [pos1/pos2]
+    description: Select a cuboid area

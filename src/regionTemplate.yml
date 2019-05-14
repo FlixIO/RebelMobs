@@ -1,0 +1,159 @@
+data:
+  name: null
+  pos1:
+    x: 0
+    y: 0
+    z: 0
+  pos2:
+    x: 0
+    y: 0
+    z: 0
+  worldName: world
+
+region:
+  waveTime: 300
+  
+boss:
+  enabled: true
+  mobType: ZOMBIE
+  name: '&aZombie Boss'
+  spawnMessage: 'A boss has spawned in this region'
+  respawnTime: 300
+  health: 100
+  attackDamage: 16
+  bossRegen:
+    time: 10
+    regenEffect: 2
+  abilities:
+    knockback:
+      chance: 50
+      knockbackEffect: 2
+    stun:
+      chance: 50
+      time: 10
+    stealhand:
+      chance: 50
+    potions:
+      - INCREASE_DAMAGE#1#100
+      - BLINDNESS#1#100
+  drops:
+    commands:
+      - give %player% diamond_sword#5#Diamond Sword
+      - eco give %player% 2000#10#$2000
+  specialDrops:
+    commands:
+      - give %player% diamond 64#10# 64 Diamonds
+  dropMessage: 'Player has received items'
+  killMessage: 'You have killed the boss'
+
+mobs:
+  zombie:
+    name: '&aZombie'
+    health: 20
+    amount: 1
+    regen:
+      time: 10
+      regenEffect: 1
+    strength: 1
+    resist: 1
+    speed: 1
+    drops:
+      - give %player% diamond_sword#5
+  skeleton:
+    name: '&aSkeleton'
+    health: 20
+    amount: 1
+    regen:
+      time: 10
+      regenEffect: 1
+    strength: 1
+    resist: 1
+    speed: 1
+    drops:
+      - give %player% diamond_sword#5
+  witherskeleton:
+    name: '&aWither Skeleton'
+    health: 20
+    amount: 1
+    regen:
+      time: 10
+      regenEffect: 1
+    strength: 1
+    resist: 1
+    speed: 1
+    drops:
+      - give %player% diamond_sword#5
+  witch:
+    name: '&aWitch'
+    health: 20
+    amount: 1
+    regen:
+      time: 10
+      regenEffect: 1
+    strength: 1
+    resist: 1
+    speed: 1
+    drops:
+      - give %player% diamond_sword#5
+  creeper:
+    name: '&aCreeper'
+    health: 20
+    amount: 1
+    regen:
+      time: 10
+      regenEffect: 1
+    strength: 1
+    resist: 1
+    speed: 1
+    drops:
+      - give %player% diamond_sword#5
+  blaze:
+    name: '&aBlaze'
+    health: 20
+    amount: 1
+    regen:
+      time: 10
+      regenEffect: 1
+    strength: 1
+    resist: 1
+    speed: 1
+    drops:
+      - give %player% diamond_sword#5
+  vindicator:
+    name: '&aVindicator'
+    health: 20
+    amount: 1
+    regen:
+      time: 10
+      regenEffect: 1
+    strength: 1
+    resist: 1
+    speed: 1
+    drops:
+      - give %player% diamond_sword#5
+  irongolem:
+    name: '&aIron Golem'
+    health: 20
+    amount: 1
+    regen:
+      time: 10
+      regenEffect: 1
+    strength: 1
+    resist: 1
+    speed: 1
+    drops:
+      - give %player% diamond_sword#5
+  evoker:
+    name: '&aEvoker'
+    health: 20
+    amount: 1
+    regen:
+      time: 10
+      regenEffect: 1
+    strength: 1
+    resist: 1
+    speed: 1
+    drops:
+      - give %player% diamond_sword#5
+      
+spawnData:
